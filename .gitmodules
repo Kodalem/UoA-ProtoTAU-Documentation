@@ -1,0 +1,12 @@
+[submodule "Hard- and Software Submodules/Ballard-1020ACS-Fuel-Cell-Stack-Control"]
+	path = Hard- and Software Submodules/Ballard-1020ACS-Fuel-Cell-Stack-Control
+	url = https://github.com/Kodalem/Ballard-1020ACS-Fuel-Cell-Stack-Control
+[submodule "Hard- and Software Submodules/VL53L5CX-LED-Display-Output"]
+	path = Hard- and Software Submodules/VL53L5CX-LED-Display-Output
+	url = https://github.com/Kodalem/VL53L5CX-LED-Display-Output
+[submodule "Hard- and Software Submodules/picow-display-communication-prototau"]
+	path = Hard- and Software Submodules/picow-display-communication-prototau
+	url = https://github.com/Kodalem/picow-display-communication-prototau
+[submodule "Documentation-Publishing-Quartz4/quartz4-publishing-UoA-ProtoTAU"]
+	path = Documentation-Publishing-Quartz4/quartz4-publishing-UoA-ProtoTAU
+	url = https://github.com/Kodalem/quartz4-publishing-UoA-ProtoTAU

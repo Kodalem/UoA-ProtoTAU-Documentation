@@ -1,0 +1,320 @@
+% Options for packages loaded elsewhere
+\PassOptionsToPackage{unicode}{hyperref}
+\PassOptionsToPackage{hyphens}{url}
+%
+\documentclass[
+  10pt,
+]{article}
+\usepackage{amsmath,amssymb}
+\usepackage{iftex}
+\ifPDFTeX
+  \usepackage[T1]{fontenc}
+  \usepackage[utf8]{inputenc}
+  \usepackage{textcomp} % provide euro and other symbols
+\else % if luatex or xetex
+  \usepackage{unicode-math} % this also loads fontspec
+  \defaultfontfeatures{Scale=MatchLowercase}
+  \defaultfontfeatures[\rmfamily]{Ligatures=TeX,Scale=1}
+\fi
+\usepackage{lmodern}
+\ifPDFTeX\else
+  % xetex/luatex font selection
+  \setmainfont[]{DejaVuSerif.ttf}
+  \setsansfont[]{DejaVuSans.ttf}
+  \setmonofont[]{JetBrainsMonoNerdFontMono-Regular.ttf}
+  \setmathfont[]{texgyredejavu-math.otf}
+\fi
+% Use upquote if available, for straight quotes in verbatim environments
+\IfFileExists{upquote.sty}{\usepackage{upquote}}{}
+\IfFileExists{microtype.sty}{% use microtype if available
+  \usepackage[]{microtype}
+  \UseMicrotypeSet[protrusion]{basicmath} % disable protrusion for tt fonts
+}{}
+\makeatletter
+\@ifundefined{KOMAClassName}{% if non-KOMA class
+  \IfFileExists{parskip.sty}{%
+    \usepackage{parskip}
+  }{% else
+    \setlength{\parindent}{0pt}
+    \setlength{\parskip}{6pt plus 2pt minus 1pt}}
+}{% if KOMA class
+  \KOMAoptions{parskip=half}}
+\makeatother
+\usepackage{xcolor}
+\usepackage[left=2.21cm,right=2.21cm,top=2.5cm,bottom=2.5cm]{geometry}
+\setlength{\emergencystretch}{3em} % prevent overfull lines
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+\setcounter{secnumdepth}{-\maxdimen} % remove section numbering
+% Make \paragraph and \subparagraph free-standing
+\ifx\paragraph\undefined\else
+  \let\oldparagraph\paragraph
+  \renewcommand{\paragraph}[1]{\oldparagraph{#1}\mbox{}}
+\fi
+\ifx\subparagraph\undefined\else
+  \let\oldsubparagraph\subparagraph
+  \renewcommand{\subparagraph}[1]{\oldsubparagraph{#1}\mbox{}}
+\fi
+\usepackage{fvextra}
+\DefineVerbatimEnvironment{Highlighting}{Verbatim}{breaklines,commandchars=\\\{\}}
+\ifLuaTeX
+  \usepackage{selnolig}  % disable illegal ligatures
+\fi
+\IfFileExists{bookmark.sty}{\usepackage{bookmark}}{\usepackage{hyperref}}
+\IfFileExists{xurl.sty}{\usepackage{xurl}}{} % add URL line breaks if available
+\urlstyle{same}
+\hypersetup{
+  pdftitle={Project Plan for the Second Half Session},
+  pdfauthor={Christine Elizabeth Koppel},
+  hidelinks,
+  pdfcreator={LaTeX via pandoc}}
+
+\title{Project Plan for the Second Half Session}
+\author{Christine Elizabeth Koppel}
+\date{}
+
+\begin{document}
+\maketitle
+
+\hypertarget{project-plan---imu-sensor-application-in-the-ground-based-vehicle-velocity-calculation}{%
+\section{Project Plan - IMU Sensor Application in the Ground-Based
+Vehicle Velocity
+Calculation}\label{project-plan---imu-sensor-application-in-the-ground-based-vehicle-velocity-calculation}}
+
+\hypertarget{project-objective-recap}{%
+\subsection{Project Objective Recap}\label{project-objective-recap}}
+
+This dissertation aims to show how feasible it could be to use and
+design the purely IMU-based velocity calculation of the vehicle in use
+to give the driver of the vehicle its status of speed. Here are the
+following objectives in this dissertation:
+
+\begin{itemize}
+\tightlist
+\item
+  Review of the IMUs (Internal Measurement Units) available, and their
+  capabilities, constraints and sensitivity.
+\item
+  Take note of and discuss the causes of the IMU errors and what could
+  be done feasibly to prepare for them.
+\item
+  Review of the systems used to send and receive data from the IMU.
+\item
+  Creating the calculation algorithms and/or a filter design to
+  compensate for the errors such as axis shifts, noise, misalignment and
+  other parameters affecting the accuracy. Optionally providing a memory
+  safe implementation of the algorithms in the embedded device.
+\item
+  Implementation of the design of the vehicle and gathering following
+  test run data.
+\item
+  Discussion of the feasibility of the pure IMU-based design over the
+  GPS-based, Hall-Effect sense and other velocity calculation methods.
+\end{itemize}
+
+\hypertarget{winter-term-work-plan}{%
+\subsection{Winter Term Work Plan}\label{winter-term-work-plan}}
+
+\hypertarget{preamble}{%
+\subsubsection{Preamble}\label{preamble}}
+
+As the required hardware is acquired:
+
+\begin{itemize}
+\tightlist
+\item
+  BNO085 and LSM6DS3TR-C IMUs
+\item
+  Raspberry Pi Pico W microcontrollers -
+\item
+  IPS and regular LCDs
+\end{itemize}
+
+With the optionals of:
+
+\begin{itemize}
+\tightlist
+\item
+  3D printing material
+\item
+  GPS module
+\end{itemize}
+
+Boilerplate software has been implemented and which could output raw
+data to the microcontroller, which proves us that the IMU is working and
+is able to be used in the project.
+
+\hypertarget{software-development}{%
+\subsubsection{Software Development}\label{software-development}}
+
+The software development is the next integral part of the project, where
+the IMU data is processed and the velocity is calculated. The software
+development has the following consecutive objectives:
+
+\begin{itemize}
+\tightlist
+\item
+  Preliminary reading material of the IMU data processing (SPI and I2C
+  protocols)
+\item
+  Implementing raw data logging into the microcontroller
+\item
+  Reading mathematical solutions and implementing algorithms for the
+  real-time velocity calculation, and logging it.
+\item
+  Algorithm implementation of filtering the data noise for the embedded
+  device.
+\end{itemize}
+
+With the optional, but useful objectives of:
+
+\begin{itemize}
+\tightlist
+\item
+  Debugger implementation for the embedded device for troubleshooting,
+  reading and debugging.
+\item
+  Further optimisation of the algorithms for the embedded device.
+\item
+  Open-Source publishing of the software under the Mozilla Public
+  License 2.0 or GPL 3.0.
+\end{itemize}
+
+\hypertarget{design-implementation-and-data-collection}{%
+\subsubsection{Design Implementation and Data
+Collection}\label{design-implementation-and-data-collection}}
+
+The design implementation and data collection is the next integral part
+of the project, where the IMU is implemented into the vehicle and the
+data is collected. The design implementation and data collection has the
+following consecutive objectives:
+
+\begin{itemize}
+\tightlist
+\item
+  Designing the vehicle to fit the IMU and the microcontroller and
+  having the initial test trial.
+\item
+  Gathering the data from the vehicle from consecutive results, and
+  fixing the design if needed.
+\item
+  Analysing the data and comparing it to the other velocity calculation
+  methods in the same run.
+\item
+  Final data collection and analysis which will be used in the
+  dissertation with references to past trials and lessons learned.
+\end{itemize}
+
+\hypertarget{writing---documentation-and-dissertation}{%
+\subsubsection{Writing - Documentation and
+Dissertation}\label{writing---documentation-and-dissertation}}
+
+The writing of the dissertation will be done over the both software and
+design development, as it is written in a flowing concurrent
+progression. The writing has the following consecutive objectives:
+
+\begin{itemize}
+\tightlist
+\item
+  Justifying and documenting the design choices of the sensors, hardware
+  and the software chosen.
+\item
+  Writing the documentation of the software development and design
+  implementation in the personal markdown logs.
+\item
+  Discussing the data collected and analysing it.
+\item
+  Writing the dissertation with the following chapters:
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Introduction
+  \item
+    Literature Review
+  \item
+    Methodology
+  \item
+    Design and Implementation
+  \item
+    Results and Analysis
+  \item
+    Conclusion
+  \item
+    References
+  \item
+    Appendices
+  \end{itemize}
+\item
+  Proofreading and formatting to be more readable and correct
+  dissertation.
+\end{itemize}
+
+\hypertarget{optional-discussion-of-winter-term-work-plan}{%
+\subsection{Optional Discussion of Winter Term Work
+Plan}\label{optional-discussion-of-winter-term-work-plan}}
+
+As this is done in regard to the student society, ProtoTAU, for
+engineers to design the most efficient and reliable vehicle in an
+endurance competition, this dissertation has attached optional
+objectives.
+
+\hypertarget{hardware-development-and-design}{%
+\subsubsection{Hardware Development and
+Design}\label{hardware-development-and-design}}
+
+This entire design will be implemented in custom designed and also
+documented hardware for controlling, powering and monitoring the
+vehicle. The hardware development and design has the following
+consecutive objectives that will be done in parallel with the software
+development and design implementation and data collection:
+
+\begin{itemize}
+\tightlist
+\item
+  Power management and safety design of the vehicle.
+\item
+  Electronics cooling and added redundancy.
+\item
+  Communication of the hardware electronics and the software.
+\item
+  Selecting and footprinting the components to the PCBs.
+\item
+  Total hardware assembly.
+\item
+  Safety features and chassis for the electronics.
+\end{itemize}
+
+\hypertarget{documentation-foundation}{%
+\subsubsection{Documentation
+Foundation}\label{documentation-foundation}}
+
+The documentation foundation will be written and published in a
+society/personal website, for the main project topic after the
+completion of the whole design of this. All of this will be written in
+standard Markdown (.md) format. The documentation foundation has the
+following consecutive objectives:
+
+\begin{itemize}
+\tightlist
+\item
+  Writing more automated documentation updating system for the website.
+\item
+  Better styling of the website.
+\end{itemize}
+
+Following parts have already been achived in the current Autumn term:
+
+\begin{itemize}
+\tightlist
+\item
+  Having the base system of publishing the documentation in web format
+  from markdown.
+\item
+  Publishing the documentation of the hardware development and design in
+  the ProtoTAU GitHub repository.
+\item
+  Webhosting the documentation.
+\end{itemize}
+
+\end{document}

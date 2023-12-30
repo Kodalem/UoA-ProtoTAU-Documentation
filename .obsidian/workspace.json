@@ -1,0 +1,176 @@
+{
+  "main": {
+    "id": "91ea77d1d29965c3",
+    "type": "split",
+    "children": [
+      {
+        "id": "0f2a5d1a7f7aa154",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "be4d340751bd07d2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Auxillary Documents/index.md",
+                "mode": "source",
+                "source": true
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "9bb1954d01c01f24",
+    "type": "split",
+    "children": [
+      {
+        "id": "525a9ff75788bb00",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "c77f457f53698e92",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "348a0cd1f43c0508",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "61d30c82b206e300",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "dbc4ad7a63bca770",
+    "type": "split",
+    "children": [
+      {
+        "id": "48618717523f9292",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "93aaa69b765fdb05",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Auxillary Documents/index.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "d73733d9aa9b79f6",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Auxillary Documents/index.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "2206f87519548f6d",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "d6edf3b055c477f9",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Auxillary Documents/index.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "be4d340751bd07d2",
+  "lastOpenFiles": [
+    "Documentation-Publishing-Quartz4/quartz4-publishing-UoA-ProtoTAU/public/404.html",
+    "Documentation-Publishing-Quartz4/quartz4-publishing-UoA-ProtoTAU/public/Documentation/Image-Folder/PCB-Screenshots/Pasted-image-20231101143337.png",
+    "Documentation-Publishing-Quartz4/quartz4-publishing-UoA-ProtoTAU/public/Documentation/Image-Folder/PCB-Screenshots/Pasted-image-20231101143227.png",
+    "Documentation-Publishing-Quartz4/quartz4-publishing-UoA-ProtoTAU/public/Documentation/Image-Folder/PCB-Screenshots/Pasted-image-20231101143056.png",
+    "Documentation-Publishing-Quartz4/quartz4-publishing-UoA-ProtoTAU/public/Documentation/Image-Folder/PCB-Screenshots/Pasted-image-20231101143037.png",
+    "Documentation-Publishing-Quartz4/quartz4-publishing-UoA-ProtoTAU/public/Documentation/Image-Folder/PCB-Screenshots/Pasted-image-20231101142940.png",
+    "Documentation-Publishing-Quartz4/quartz4-publishing-UoA-ProtoTAU/public/Documentation/Image-Folder/PCB-Screenshots/Pasted-image-20231101142850.png",
+    "Documentation-Publishing-Quartz4/quartz4-publishing-UoA-ProtoTAU/public/Documentation/Image-Folder/PCB-Screenshots/Pasted-image-20231009155547.png",
+    "Documentation-Publishing-Quartz4/quartz4-publishing-UoA-ProtoTAU/public/Documentation/Image-Folder/PCB-Screenshots/Pasted-image-20231009150127.png",
+    "Documentation-Publishing-Quartz4/quartz4-publishing-UoA-ProtoTAU/public/Documentation/Image-Folder/PCB-Screenshots/Pasted-image-20231009145903.png",
+    "Documentation-Publishing-Quartz4/quartz4-publishing-UoA-ProtoTAU/public/Documentation/Image-Folder/PCB-Screenshots/Pasted-image-20231009144406.png",
+    "Documentation-Publishing-Quartz4/quartz4-publishing-UoA-ProtoTAU/public/Documentation/Image-Folder/PCB-Screenshots",
+    "Documentation-Publishing-Quartz4/quartz4-publishing-UoA-ProtoTAU/public/Documentation/Image-Folder",
+    "Documentation-Publishing-Quartz4/quartz4-publishing-UoA-ProtoTAU/public/Documentation/Files/Simulation-Files/imu_original.py",
+    "Documentation-Publishing-Quartz4/quartz4-publishing-UoA-ProtoTAU/public/Documentation/Files/Simulation-Files/imu_kalmantrial.py",
+    "Documentation-Publishing-Quartz4/quartz4-publishing-UoA-ProtoTAU/public/Documentation/Files/Simulation-Files/imu.py",
+    "Documentation-Publishing-Quartz4/quartz4-publishing-UoA-ProtoTAU/public/Documentation/Files/Simulation-Files/Draft1.asc",
+    "Documentation-Publishing-Quartz4/quartz4-publishing-UoA-ProtoTAU/public/Documentation/Files/Sheets/Gantt-Chart.xlsx",
+    "Documentation-Publishing-Quartz4/quartz4-publishing-UoA-ProtoTAU/public/Documentation/Files/Sheets/Component-Table-Wishlist-Buyout.ods",
+    "Documentation-Publishing-Quartz4/quartz4-publishing-UoA-ProtoTAU/public/Documentation/Files/Documents/1st-ProtoTAU-EEES-Meeting.pdf",
+    "Documentation-Publishing-Quartz4/quartz4-publishing-UoA-ProtoTAU/public/Documentation/Files/Simulation-Files",
+    "Documentation/ProtoTAU Electrical, Electronics and Software Engineering/Meetings/1st ProtoTAU EEES Meeting.md",
+    "Auxillary Documents/index.md",
+    "Documentation-Publishing-Quartz4/quartz4-publishing-UoA-ProtoTAU/docs/features/explorer.md"
+  ]
+}

@@ -2,5 +2,10 @@
 <project version="4">
   <component name="VcsDirectoryMappings">
     <mapping directory="$PROJECT_DIR$" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Documentation-Publishing-Quartz4/quartz" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Documentation-Publishing-Quartz4/quartz4-publishing-UoA-ProtoTAU" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Hard- and Software Submodules/Ballard-1020ACS-Fuel-Cell-Stack-Control" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Hard- and Software Submodules/VL53L5CX-LED-Display-Output" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Hard- and Software Submodules/picow-display-communication-prototau" vcs="Git" />
   </component>
 </project>
