@@ -13,9 +13,21 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Auxillary Documents/index.md",
+                "file": "Documentation/ProtoTAU Electrical, Electronics and Software Engineering/Documentation/Power Management/Super-capacitor Charger Controller.md",
                 "mode": "source",
-                "source": true
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "e7936ade896e15e5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Documentation/ProtoTAU Electrical, Electronics and Software Engineering/Documentation/Power Management/Super-capacitor Charger Controller.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -85,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Auxillary Documents/index.md",
+                "file": "Documentation/ProtoTAU Electrical, Electronics and Software Engineering/Documentation/Power Management/Super-capacitor Charger Controller.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Auxillary Documents/index.md",
+                "file": "Documentation/ProtoTAU Electrical, Electronics and Software Engineering/Documentation/Power Management/Super-capacitor Charger Controller.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Auxillary Documents/index.md"
+                "file": "Documentation/ProtoTAU Electrical, Electronics and Software Engineering/Documentation/Power Management/Super-capacitor Charger Controller.md"
               }
             }
           }
@@ -148,29 +160,35 @@
   },
   "active": "be4d340751bd07d2",
   "lastOpenFiles": [
+    "Documentation-Publishing-Quartz4/quartz4-publishing-UoA-ProtoTAU/public/static/og-image.png",
+    "Documentation-Publishing-Quartz4/quartz4-publishing-UoA-ProtoTAU/public/static/icon.png",
+    "Documentation-Publishing-Quartz4/quartz4-publishing-UoA-ProtoTAU/public/static/contentIndex.json",
+    "Documentation-Publishing-Quartz4/quartz4-publishing-UoA-ProtoTAU/public/static",
+    "Auxillary Documents/index.md",
     "Documentation-Publishing-Quartz4/quartz4-publishing-UoA-ProtoTAU/public/404.html",
+    "Documentation-Publishing-Quartz4/quartz4-publishing-UoA-ProtoTAU/public/Documentation/amCharts-(1).png",
+    "Documentation-Publishing-Quartz4/quartz4-publishing-UoA-ProtoTAU/public/Documentation/Pasted-image-20231102125448.png",
+    "Documentation-Publishing-Quartz4/quartz4-publishing-UoA-ProtoTAU/public/Documentation/Pasted-image-20231102121851.png",
+    "Documentation-Publishing-Quartz4/quartz4-publishing-UoA-ProtoTAU/public/Documentation/Pasted-image-20231102114609.png",
+    "Documentation-Publishing-Quartz4/quartz4-publishing-UoA-ProtoTAU/public/Documentation/Pasted-image-20231102114606.png",
+    "Documentation-Publishing-Quartz4/quartz4-publishing-UoA-ProtoTAU/public/index.xml",
+    "Documentation-Publishing-Quartz4/quartz4-publishing-UoA-ProtoTAU/public/sitemap.xml",
+    "Documentation-Publishing-Quartz4/quartz4-publishing-UoA-ProtoTAU/public/index.html",
     "Documentation-Publishing-Quartz4/quartz4-publishing-UoA-ProtoTAU/public/Documentation/Image-Folder/PCB-Screenshots/Pasted-image-20231101143337.png",
     "Documentation-Publishing-Quartz4/quartz4-publishing-UoA-ProtoTAU/public/Documentation/Image-Folder/PCB-Screenshots/Pasted-image-20231101143227.png",
     "Documentation-Publishing-Quartz4/quartz4-publishing-UoA-ProtoTAU/public/Documentation/Image-Folder/PCB-Screenshots/Pasted-image-20231101143056.png",
     "Documentation-Publishing-Quartz4/quartz4-publishing-UoA-ProtoTAU/public/Documentation/Image-Folder/PCB-Screenshots/Pasted-image-20231101143037.png",
-    "Documentation-Publishing-Quartz4/quartz4-publishing-UoA-ProtoTAU/public/Documentation/Image-Folder/PCB-Screenshots/Pasted-image-20231101142940.png",
-    "Documentation-Publishing-Quartz4/quartz4-publishing-UoA-ProtoTAU/public/Documentation/Image-Folder/PCB-Screenshots/Pasted-image-20231101142850.png",
-    "Documentation-Publishing-Quartz4/quartz4-publishing-UoA-ProtoTAU/public/Documentation/Image-Folder/PCB-Screenshots/Pasted-image-20231009155547.png",
-    "Documentation-Publishing-Quartz4/quartz4-publishing-UoA-ProtoTAU/public/Documentation/Image-Folder/PCB-Screenshots/Pasted-image-20231009150127.png",
-    "Documentation-Publishing-Quartz4/quartz4-publishing-UoA-ProtoTAU/public/Documentation/Image-Folder/PCB-Screenshots/Pasted-image-20231009145903.png",
-    "Documentation-Publishing-Quartz4/quartz4-publishing-UoA-ProtoTAU/public/Documentation/Image-Folder/PCB-Screenshots/Pasted-image-20231009144406.png",
     "Documentation-Publishing-Quartz4/quartz4-publishing-UoA-ProtoTAU/public/Documentation/Image-Folder/PCB-Screenshots",
     "Documentation-Publishing-Quartz4/quartz4-publishing-UoA-ProtoTAU/public/Documentation/Image-Folder",
     "Documentation-Publishing-Quartz4/quartz4-publishing-UoA-ProtoTAU/public/Documentation/Files/Simulation-Files/imu_original.py",
     "Documentation-Publishing-Quartz4/quartz4-publishing-UoA-ProtoTAU/public/Documentation/Files/Simulation-Files/imu_kalmantrial.py",
-    "Documentation-Publishing-Quartz4/quartz4-publishing-UoA-ProtoTAU/public/Documentation/Files/Simulation-Files/imu.py",
-    "Documentation-Publishing-Quartz4/quartz4-publishing-UoA-ProtoTAU/public/Documentation/Files/Simulation-Files/Draft1.asc",
-    "Documentation-Publishing-Quartz4/quartz4-publishing-UoA-ProtoTAU/public/Documentation/Files/Sheets/Gantt-Chart.xlsx",
-    "Documentation-Publishing-Quartz4/quartz4-publishing-UoA-ProtoTAU/public/Documentation/Files/Sheets/Component-Table-Wishlist-Buyout.ods",
-    "Documentation-Publishing-Quartz4/quartz4-publishing-UoA-ProtoTAU/public/Documentation/Files/Documents/1st-ProtoTAU-EEES-Meeting.pdf",
-    "Documentation-Publishing-Quartz4/quartz4-publishing-UoA-ProtoTAU/public/Documentation/Files/Simulation-Files",
+    "Documentation/ProtoTAU Electrical, Electronics and Software Engineering/Documentation/Power Management/Super-capacitor Charger Controller.md",
+    "Documentation/ProtoTAU Electrical, Electronics and Software Engineering/Documentation/Power Management/Voltage Regulator.md",
+    "Documentation/ProtoTAU Electrical, Electronics and Software Engineering/Documentation/User Interface/Safety Display.md",
+    "Documentation/ProtoTAU Electrical, Electronics and Software Engineering/Documentation/Power Management/DC-DC Step-Up Conversion.md",
+    "Documentation/ProtoTAU Electrical, Electronics and Software Engineering/Documentation/Power Management/Motor Logic and Power Control.md",
+    "Documentation/ProtoTAU Electrical, Electronics and Software Engineering/Documentation/Power Management/Pulse-Width-Modulation Control.md",
     "Documentation/ProtoTAU Electrical, Electronics and Software Engineering/Meetings/1st ProtoTAU EEES Meeting.md",
-    "Auxillary Documents/index.md",
     "Documentation-Publishing-Quartz4/quartz4-publishing-UoA-ProtoTAU/docs/features/explorer.md"
   ]
 }

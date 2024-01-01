@@ -4,6 +4,7 @@ title: Welcome to ProtoTAU Documentation
 
 > [!todo]
 > This documentation is still work in progress and construction, this visual look will not be likely permanent, and it is likely to change or be overhauled.
+> Phone users do not be alarmed when some font parameters are missing, as because of web differences between platforms. This should become fixed as time moves on - desktop users can experience the full font support in this site.
 
 Documentation specific todo list:
  - [ ] Teach guidelines how to push the files into the society documentation... again as the repository system was changed and better planned
@@ -20,6 +21,13 @@ Documentation specific todo list:
 > [Purge Valve Control](Purge%20Valve%20Control.md)
 >
 > [DC-DC Step-Up Conversion](DC-DC%20Step-Up%20Conversion.md)
+> 
+> [Super-capacitor Charger Controller](Super-capacitor%20Charger%20Controller.md)
+> 
+> [Voltage Regulator](Voltage%20Regulator.md)
+
+
+
 
 Notes:
 This documentation is also going to be used for the Honours Level project dealing with Internal Measurement Unit Sensor Application in

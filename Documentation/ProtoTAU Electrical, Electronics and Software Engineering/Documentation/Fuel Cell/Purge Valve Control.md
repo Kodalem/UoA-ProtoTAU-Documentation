@@ -1,3 +1,12 @@
+---
+authors: Christine Koppel
+tags:
+  - Rust
+  - Safety Critical
+  - Chemistry
+date:
+  - 2023-12-27
+---
 
 # Purge Valve Control
 
