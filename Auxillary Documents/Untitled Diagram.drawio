@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-02-13T13:37:13.393Z" agent="Mozilla/5.0 (X11; Linux x86_64; rv:122.0) Gecko/20100101 Firefox/122.0" etag="JvRKiDBKa4ADi8UCiRUo" version="23.1.3" type="github">
+<mxfile host="app.diagrams.net" modified="2024-02-13T13:45:33.071Z" agent="Mozilla/5.0 (X11; Linux x86_64; rv:122.0) Gecko/20100101 Firefox/122.0" etag="Xt-rZUs6hoXa41n-Bygg" version="23.1.3" type="github">
   <diagram name="Page-1" id="3pwY9fGzuHn3JVjRTNSs">
-    <mxGraphModel dx="1650" dy="1714" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2160" dy="2262" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -248,6 +248,9 @@
           <mxGeometry x="-0.3256" y="-2" relative="1" as="geometry">
             <mxPoint x="-1" as="offset" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="e2PPbPaa_1yQstqibaPU-128" value="SPI" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#33FFFF;dashed=1;" edge="1" parent="1" source="-RvZQtozATsV0GQGR4CD-47" target="e2PPbPaa_1yQstqibaPU-127">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="-RvZQtozATsV0GQGR4CD-47" value="&lt;font color=&quot;#ffffff&quot;&gt;RP2040 Microcontroller- Client Driver HUD&lt;/font&gt;" style="whiteSpace=wrap;html=1;fontSize=16;fillColor=#6600CC;" parent="1" vertex="1">
           <mxGeometry x="349" y="396" width="133" height="86" as="geometry" />
@@ -512,6 +515,60 @@
         </mxCell>
         <mxCell id="e2PPbPaa_1yQstqibaPU-105" value="Emergency Stop Button" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="-537" y="36" width="144" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="e2PPbPaa_1yQstqibaPU-114" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" target="-RvZQtozATsV0GQGR4CD-27">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="736.0000000000002" y="-496" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="764" y="-496" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e2PPbPaa_1yQstqibaPU-115" value="Pedal Signal" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="e2PPbPaa_1yQstqibaPU-114">
+          <mxGeometry x="0.0781" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e2PPbPaa_1yQstqibaPU-118" value="&lt;div&gt;Enviro Sensor&lt;/div&gt;&lt;div&gt;BME688&lt;br&gt;&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;fillColor=#d5e8d4;gradientColor=#97d077;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="-75" y="536" width="94" height="58" as="geometry" />
+        </mxCell>
+        <mxCell id="e2PPbPaa_1yQstqibaPU-119" value="&lt;div&gt;Thermocouple Amplifier&lt;/div&gt;&lt;div&gt;MAX31855&lt;br&gt;&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;fillColor=#d5e8d4;gradientColor=#97d077;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="-75" y="602" width="94" height="58" as="geometry" />
+        </mxCell>
+        <mxCell id="e2PPbPaa_1yQstqibaPU-124" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#CC99FF;dashed=1;dashPattern=8 8;" edge="1" parent="1" source="e2PPbPaa_1yQstqibaPU-121" target="-RvZQtozATsV0GQGR4CD-68">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e2PPbPaa_1yQstqibaPU-130" value="I2C" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="e2PPbPaa_1yQstqibaPU-124">
+          <mxGeometry x="-0.1667" y="4" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e2PPbPaa_1yQstqibaPU-121" value="&lt;div&gt;BNO0825&lt;/div&gt;&lt;div&gt;IMU&lt;br&gt;&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;fillColor=#d5e8d4;gradientColor=#97d077;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="260" y="599" width="94" height="58" as="geometry" />
+        </mxCell>
+        <mxCell id="e2PPbPaa_1yQstqibaPU-122" value="&lt;div&gt;Enviro Sensor&lt;/div&gt;&lt;div&gt;BME688&lt;br&gt;&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;fillColor=#d5e8d4;gradientColor=#97d077;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="431" y="515" width="94" height="58" as="geometry" />
+        </mxCell>
+        <mxCell id="e2PPbPaa_1yQstqibaPU-123" value="&lt;div&gt;I2C&lt;/div&gt;" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.849;entryY=0.982;entryDx=0;entryDy=0;entryPerimeter=0;strokeColor=#CC99FF;dashed=1;dashPattern=8 8;" edge="1" parent="1" source="e2PPbPaa_1yQstqibaPU-122" target="-RvZQtozATsV0GQGR4CD-47">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e2PPbPaa_1yQstqibaPU-125" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.659;entryY=0.99;entryDx=0;entryDy=0;entryPerimeter=0;strokeColor=#CC99FF;dashed=1;dashPattern=8 8;" edge="1" parent="1" source="e2PPbPaa_1yQstqibaPU-118" target="-RvZQtozATsV0GQGR4CD-41">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e2PPbPaa_1yQstqibaPU-126" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.659;entryY=0.99;entryDx=0;entryDy=0;entryPerimeter=0;strokeColor=#CC99FF;dashed=1;dashPattern=8 8;" edge="1" parent="1" source="e2PPbPaa_1yQstqibaPU-119" target="-RvZQtozATsV0GQGR4CD-41">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-98" y="631" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e2PPbPaa_1yQstqibaPU-129" value="I2C" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="e2PPbPaa_1yQstqibaPU-126">
+          <mxGeometry x="0.6567" y="3" relative="1" as="geometry">
+            <mxPoint y="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e2PPbPaa_1yQstqibaPU-127" value="&lt;div&gt;IPS LED Display&lt;/div&gt;&lt;div&gt;PIM580&lt;br&gt;&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f8cecc;gradientColor=#ea6b66;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="534" y="410" width="94" height="58" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
