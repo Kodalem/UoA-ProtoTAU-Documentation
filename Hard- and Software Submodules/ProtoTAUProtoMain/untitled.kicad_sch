@@ -1,0 +1,13 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "613f98ae-111b-4371-bc40-4031f9085a18")
+	(paper "A4")
+	(title_block
+		(title "ProtoTAU Systems")
+		(company "University of Aberdeen")
+		(comment 1 "Christine E. K.")
+	)
+	(lib_symbols)
+)

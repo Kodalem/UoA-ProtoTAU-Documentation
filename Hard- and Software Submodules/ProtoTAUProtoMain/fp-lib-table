@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "ProtoTAU Footprint Libraries")(type "KiCad")(uri "${KIPRJMOD}/ProtoTAU Footprint Libraries.pretty")(options "")(descr ""))
+)
